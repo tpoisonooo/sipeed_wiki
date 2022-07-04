@@ -2,6 +2,7 @@
 title: 近期更新内容
 keywords: maixpy3, 开发进程
 desc: maixpy3 doc: 开发进程
+class: heading_no_counter
 ---
 
 > 设置一个板块来让大家知道最近增加了哪些内容
@@ -10,25 +11,29 @@ desc: maixpy3 doc: 开发进程
 
 ---
 
-### V0.5.1 Release 页面： https://github.com/sipeed/MaixPy3/releases/tag/MaixPy-0.5.1
+### V0.5.1 
 
-V831
+Release 页面： https://github.com/sipeed/MaixPy3/releases/tag/MaixPy-0.5.1
 
-- 分别推出了 maixhub 和 maixpy3 的镜像，前者内置了开机应用，后者不内置开机应用。
+#### V831
+
+- 分离出名称带 maixhub 和 maixpy3 的镜像；前者内置了开机应用，后者无开机应用。
 
 - image 模块修复了 find_blobs 的 lab 阈值不准确的问题。
 
 - image 添加了 image.cv_orb() 的 orb 特征提取 和 find_template ncc 模板匹配函数，效率基本满足 10 ~ 15 fps。
 
-R329
+#### R329
 
 - 无新更新内容
 
 ---
 
-### V0.5.0 Release 页面： https://github.com/sipeed/MaixPy3/releases/tag/MaixPy-0.5.0
+### V0.5.0 
 
-V831
+Release 页面： https://github.com/sipeed/MaixPy3/releases/tag/MaixPy-0.5.0
+
+#### V831
 
 - 内置 maixhub 应用，可以直接在线训练并且直接部署。在线训练网址：maix.sipeed.com
 - 启动顺序为先执行 /root/app/main.py 然后是 /root/main.py。不需要 maixhub 一键部署后可以直接 `rm -rf /root/app`
@@ -38,9 +43,7 @@ V831
 - 使用时候被提醒 `Camera is busy` 时记得手动退出一下开机应用
 ![camera is busy](./../assets/develop/v0.5.0_camera_busy.png)
 
----
-
-R329
+#### R329
 
 - 无新更新内容
 
