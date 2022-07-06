@@ -30,7 +30,6 @@ V831 芯片介绍
 | I2S           | I2S x1 (I2S0)                                                                    | ---                                 |
 | Parallel CSI  | No support                                                                       | ---                                 |
 | Ethernet      | 10/100 Mbit/s Ethernet port with RMII                                            |                                     |
-| interface     | ---                                                                              |                                     |
 | TWI           | TWI x4 (TWI0, TWI1, TWI2, TWI3)                                                  | ---                                 |
 | RSB           | No support                                                                       | ---                                 |
 | GPADC         | 1-ch                                                                             | ---                                 |
@@ -38,7 +37,6 @@ V831 芯片介绍
 | MIPI CSI      | 2-lane, up to 1080p@60fps                                                        | ---                                 |
 | MIPI DSI      | No support                                                                       | ---                                 |
 | Package       | QFN88                                                                            | ---                                 |
-| ---           | ---                                                                              | ---                                 |
 
 [V833／V831 Datasheet V1.0.pdf](https://linux-sunxi.org/images/b/b9/V833%EF%BC%8FV831_Datasheet_V1.0.pdf)
 

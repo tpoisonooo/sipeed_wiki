@@ -57,14 +57,7 @@ desc: maixpy doc: 其他事项
 - update_dtb 程序是给 Allwinner tina linux 专门写的应用。
 - 编译好的设备树文件，可以在[下载站](https://dl.sipeed.com/shareURL/MaixII/MaixII-Dock/SDK/Toolchain)中进行下载
 
-将设备树文件存放到开发板中在电脑中显示的虚拟U盘中。接着在adb终端里面执行下面命令
-
-```bash
-sync  #刷新一下目录
-update_dtb /dev/mmcblk0 /root/sipeed_240x240_vs3205.dtb
-```
-
-即可切换设备树。该设备树文件是通过内核编译出来的，不推荐个人用户自行编译。设备树文件命名规则如下：
+该设备树文件是通过内核编译出来的，不推荐个人用户自行编译。设备树文件命名规则如下：
 
 | 文件名字 | 可用屏幕 | 可用摄像头 |
 | :----: | :----: | :---: |
@@ -72,6 +65,16 @@ update_dtb /dev/mmcblk0 /root/sipeed_240x240_vs3205.dtb
 | sipeed_240x240_sp2305.dtb | 1.3寸 | sp2305 |
 | sipeed_240x320_vs3205.dtb | 2.4寸和2.8寸 |vs3205 |
 | sipeed_240x320_sp2305.dtb | 2.4寸和2.8寸 |sp2305 |
+
+将设备树文件存放到开发板中在电脑中显示的虚拟U盘中。接着在adb终端里面执行下面命令
+
+```bash
+sync  #刷新一下目录
+update_dtb /dev/mmcblk0 /root/sipeed_240x240_vs3205.dtb
+reboot #重启以应用
+```
+
+即可切换设备树。
 
 - 如果发现屏幕显示效果不对 说明选错了对应的设备树文件。重新弄一下即可
 
@@ -85,6 +88,13 @@ update_dtb /dev/mmcblk0 /root/sipeed_240x240_vs3205.dtb
 
 > **注意的是要摄像头的接法，不要把摄像头给接反了，摄像头的底板上有一个白点，开发板卡上也有一个白点，这两个白点要在同一边。如果接反了，摄像头烧毁了请自行再买一个吧**
 
+<html>
+<div class="imbox">
+    <img src="./asserts/other/camera_outlook_1.jpg" width=350 alt="camera top">
+    <img src="./asserts/other/camera_outlook_2.jpg" width=350 alt="camera bottom">
+</div>
+</html>
+
 ### 准备
 
 - 需要切换的摄像头模块
@@ -94,13 +104,14 @@ update_dtb /dev/mmcblk0 /root/sipeed_240x240_vs3205.dtb
 
 ### 切换设备树
 
-> update_dtb 程序是给 allwiner tina linux 专门写的小工具。
+> update_dtb 程序是给 Allwinner tina linux 专门写的小工具。
 
 将设备树文件存放到开发板中在电脑中显示的虚拟U盘中。接着在adb终端里面执行下面命令
 
 ```bash
 sync  #刷新一下目录
 update_dtb /dev/mmcblk0 /root/sipeed_240x240_vs3205.dtb
+reboot #重启以重新使用
 ```
 
 即可切换设备树，该设备树文件是通过内核编译出来的，不推荐个人用户自行编译

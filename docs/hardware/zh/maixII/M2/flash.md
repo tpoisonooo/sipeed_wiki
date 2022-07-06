@@ -27,13 +27,14 @@ desc: maixpy doc: MaixII M2dock 烧录系统
 
 对于V831的镜像文件名字是有对应的规则，以后大家可以根据自己的需求来进行下载
 
-就拿`maixpy3-0.3.4_MaixII-Dock_20211119.7z`这镜像文件来说
+就拿`v831-m2dock-maixhub-0.5.1-20220701.zip`和 ` v831-m2dock-maixpy3-0.5.1-20220701.zip` 这两个镜像文件来说
 
-| 名称          | 含义                                           |
-| ------------- | ---------------------------------------------- |
-| maixpy3-0.3.4 | 此镜像是给 [MaixPy3](https://wiki.sipeed.com/maixpy3) 专用，并内置了`0.3.4`的版本 |
-| MaixII-Dock   | 可使用 MaixII-Dock 开发板平台                  |
-| 20211119      | 镜像更新日期                                   |
+| 名称          | 含义                                                                                                              |
+| ------------- | ----------------------------------------------------------------------------------------------------------------- |
+| maixpy3-0.5.1 | 此镜像是给 [MaixPy3](https://wiki.sipeed.com/maixpy3) 专用，并内置了`0.5.1`的版本，但其中 **无** 内置 maixhub app |
+| maixhub-0.5.1 | 此镜像是给 [MaixPy3](https://wiki.sipeed.com/maixpy3) 专用，并内置了`0.5.1`的版本，但其中 内置 maixhub app        |
+| m2dock        | 可使用 MaixII-Dock 开发板平台                                                                                     |
+| 20220701      | 镜像更新日期                                                                                                      |
 
 ## Windows 上使用 PhoenixCard烧录镜像
 

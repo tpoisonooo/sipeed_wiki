@@ -12,7 +12,7 @@ MaixII M2dock 是基于全志 V831 芯片设计的一款【板卡】+【底板�
 
 细节请看[淘宝商品介绍](https://item.taobao.com/item.htm?id=635874427363)，可同步最新讯息。
 
-![](./asserts/maix_v831.jpg)
+![core_board](./asserts/maix_v831.jpg)
 
 > 板卡参考资料下载站 [MaixII_V831_v3100](https://api.dl.sipeed.com/shareURL/MaixII/MaixII-Dock/HDK/Sipeed_MaixII_V831/MaixII_V831_v3100)
 
@@ -73,7 +73,7 @@ MaixII M2dock 是基于全志 V831 芯片设计的一款【板卡】+【底板�
 | 8    | BTB 摄像头接口*1        | 用于连接 BTB 摄像头模块                    | 出厂已连接                                   |
 | 9    | 摄像头 M2 铜柱螺母*2    | 用于固定 BTB 摄像头                        | 出厂已固定                                   |
 | 10   | FHD 摄像头*1            | 默认SP2305 Sensor BTB形式，1080P           | 默认含6mm焦距M12镜头，用户可选配其他焦距镜头 |
-| 11   | USB 转 UART 芯片*1      | 型号 GD32F150G8 供串口调试使用             | 出厂已烧录固件                               |
+| 11   | USB 转 UART 芯片*1      | 提供串口通信功能                           | 出厂已烧录固件                               |
 | 12   | Type-C 接口(USB OTG) *1 | 用于 V831 的 USB OTG功能                   | 可用于模组供电                               |
 | 13   | Type-C 接口(UART) *1    | 用于对V831通常的串口调试                   | 可用于模组供电                               |
 | 14   | 三轴加速度传感器*1      | I2C接口，可提供3轴的加速度数据             | ---                                          |

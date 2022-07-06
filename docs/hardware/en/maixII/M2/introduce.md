@@ -14,7 +14,7 @@ Allwinner introduces several camera processors (V3, V316, S3…) in the past, bu
 
 ## v831 Chip
 
-![V831_struct.png](./asserts/V831_struct.png)
+![V831_struct.png](./../../../zh/maixII/M2/asserts/V831_struct.png)
 
 ## Parameters
 
@@ -25,14 +25,13 @@ Allwinner introduces several camera processors (V3, V316, S3…) in the past, bu
 | NPU           | 0.2T                                                                             | ---                        |
 | EISE          | Up to 1080p@30fps                                                                | ---                        |
 | SDRAM         | SIP 64MB DDR2                                                                    | SIP(System In a Package)   |
-| SMHC          | SMHC x2 (SDC0, SDC1)                                                             |                            |
+| SMHC          | SMHC x2 (SDC0, SDC1)                                                             | SD-MMC Host controller     |
 | SPI           | SPI x2 (SPI0, SPI1)                                                              | ---                        |
 | LCD           | Serial RGB, i8080                                                                | ---                        |
 | DSPO          | BT656                                                                            | ---                        |
 | I2S           | I2S x1 (I2S0)                                                                    | ---                        |
 | Parallel CSI  | No support                                                                       | ---                        |
 | Ethernet      | 10/100 Mbit/s Ethernet port with RMII                                            |                            |
-| interface     | ---                                                                              |                            |
 | TWI           | TWI x4 (TWI0, TWI1, TWI2, TWI3)                                                  | ---                        |
 | RSB           | No support                                                                       | ---                        |
 | GPADC         | 1-ch                                                                             | ---                        |
